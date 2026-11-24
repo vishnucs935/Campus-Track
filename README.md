@@ -2,9 +2,23 @@
 
 A classroom project for reporting campus maintenance issues and tracking repairs. A student submits an issue and its location using Flutter. The React maintenance desk reads the same reports and marks completed repairs as resolved. Django owns the state and stores it in SQLite.
 
+## Project preview
+
+### Student report form · Flutter
+
+A student enters the problem and room, then submits the report to the maintenance desk.
+
+<img src="docs/preview/student-report.png" alt="Campus report form filled in with a projector fault in engineering room 204" width="360">
+
+### Maintenance desk · React
+
+The same report appears in the open queue. Staff can mark it resolved after the repair.
+
+![Maintenance desk with the projector report in the open queue](docs/preview/maintenance-desk.png)
+
 ## Run the local demo
 
-Install Python 3.10 or newer. Extract the ZIP, open a terminal in the directory containing manage.py, and run:
+Install Python 3.10 or newer. Clone this repository or extract the ZIP, open a terminal in the directory containing manage.py, and run:
 
 ```sh
 python -m venv .venv
