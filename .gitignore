@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+.env
+node_modules/
+web/dist/
+mobile/.dart_tool/
+mobile/build/
+site/**/.last_build_id

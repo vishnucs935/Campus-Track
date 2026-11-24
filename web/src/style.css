@@ -1,0 +1,10 @@
+:root{font-family:'Source Sans 3',system-ui,sans-serif;color:#133932;background:#f4f6f0}
+main{max-width:52rem;margin:8vh auto;padding:1rem}
+header{padding:2rem;background:#173e38;color:white;border-radius:1rem}
+h1{font-size:clamp(2rem,6vw,3.7rem);margin:.4rem 0;letter-spacing:-.05em}
+nav,article{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+nav{margin:2rem 0 1rem}.refresh{margin-left:auto}
+button{padding:.65rem .9rem;border:1px solid #a4b9ae;border-radius:.5rem;background:white;color:#193c34;cursor:pointer}
+button[aria-pressed=true]{background:#193c34;color:white}
+article{background:white;padding:1.2rem;border-bottom:1px solid #c8d8cc;justify-content:space-between;overflow-wrap:anywhere}
+h2{font-size:1.25rem;margin:.3rem 0}small{color:#52675c}
